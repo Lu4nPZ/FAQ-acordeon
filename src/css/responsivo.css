@@ -1,0 +1,37 @@
+@media(max-width: 500px){
+    body{
+        background: url(../images/background-pattern-mobile.svg) no-repeat;
+        background-size: 100%;
+    }
+
+    .faq{
+        max-width: 350px;
+    }
+
+    .acordeon .items .item h2{
+        max-width: 250px;
+    }
+
+    .faq .titulo img{
+        max-width: 25px;
+    }
+
+    .faq .titulo h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 360px){
+    .faq{
+        max-width: 250px;
+    }
+
+    .acordeon .items .item h2{
+        max-width: 150px;
+        font-size: 12px;
+    }
+
+    .acordeon .items .item p{
+        font-size: 10px;
+    }
+}
